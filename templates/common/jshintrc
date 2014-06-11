@@ -1,0 +1,27 @@
+{
+  "boss": true,
+  "browser": true,
+  "curly": true,
+  "devel": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "onevar": false,
+  "sub": true,
+  "undef": true,
+  "globals": {
+      "exports": true,
+      "jQuery": true,
+      "module": true,
+      "document": true,
+      "define": true,
+      "require": true,
+      "toGeoJSON": true,
+      "Handlebars": true,
+      "OpenLayers": true,
+      "Backbone": true
+  }
+}

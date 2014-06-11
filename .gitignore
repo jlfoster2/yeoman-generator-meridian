@@ -1,0 +1,13 @@
+# System related files
+.DS_Store
+
+# NPM related files
+node_modules
+
+# Project related files
+.TODO.md
+.idea/
+*.iml
+
+#testing
+test/temp

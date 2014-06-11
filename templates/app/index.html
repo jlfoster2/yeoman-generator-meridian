@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meridian Map</title>
+    <link rel="stylesheet" href="./libs/bootstrap-3.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="./libs/toastr-2.0.1/toastr.css">
+    <link rel="stylesheet" href="./libs/bootstrap-dialog/bootstrap-dialog.css">
+    <link rel="stylesheet" href="./libs/bootstro/bootstro.css">
+    <link rel="stylesheet" href="./libs/dynamic-bootstrap-table/dynamic-bootstrap-table.css">
+    <link rel="stylesheet" href="./libs/bootstrap-multiselect-0.9.4/bootstrap-multiselect.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <script data-main="app" src="./bower_components/requirejs/require.js"></script>
+  </head>
+  <body>
+      <div id="mapContainer">
+        <!--add displays/services/controls at this level-->
+        <div data-aura-component="displays/splash-screen"></div>
+
+        <div class="container-fluid">
+            <nav id="header-nav" class="navbar navbar-default" role="navigation">
+              <div class="row">
+                <!--add tools for toolbars at this level-->
+              </div>
+              <div data-aura-component="controls/zoom"></div>
+            </nav>
+        </div>
+      </div>
+  </body>
+</html>
