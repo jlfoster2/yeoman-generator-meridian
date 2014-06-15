@@ -1,6 +1,3 @@
-<img src="http://en.gravatar.com/userimage/3193976/53730a1d436c157bf770c04232c2a72b.png?size=200" width="200px"/>
-
-
 ```
 =====================================
 		 |----\    /----|
